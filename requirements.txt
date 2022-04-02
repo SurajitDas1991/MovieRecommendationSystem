@@ -14,4 +14,4 @@ tqdm
 catboost
 missingno
 jinja2
-missingno
+nltk
