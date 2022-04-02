@@ -1,0 +1,17 @@
+#local package
+-e .
+
+#external requirements
+black
+pandas
+matplotlib
+ipykernel
+scikit-learn
+xgboost
+lightgbm
+seaborn
+tqdm
+catboost
+missingno
+jinja2
+missingno
