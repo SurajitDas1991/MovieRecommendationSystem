@@ -15,3 +15,4 @@ catboost
 missingno
 jinja2
 nltk
+numpy
