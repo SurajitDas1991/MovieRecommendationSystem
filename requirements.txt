@@ -7,12 +7,8 @@ pandas
 matplotlib
 ipykernel
 scikit-learn
-xgboost
-lightgbm
 seaborn
 tqdm
-catboost
-missingno
 jinja2
-nltk
+streamlit
 numpy
