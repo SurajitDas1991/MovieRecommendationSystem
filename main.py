@@ -1,6 +1,4 @@
-from utils import *
 from src import logger
-import template
 import pandas as pd
 import pathlib
 import pickle
