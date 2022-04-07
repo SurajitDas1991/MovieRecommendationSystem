@@ -9,7 +9,6 @@ movies_df=pd.DataFrame(movies_dict)
 
 movie_similarity=pickle.load(open("models/similarity.pkl","rb"))
 
-app_logger=logger.get_logger(__name__,"Training.txt")
 
 def fetch_poster(movie_id):
     response=requests.get(f"https://api.themoviedb.org/3/movie/{movie_id}?api_key=a6bd2cc04687c3598361a82a51b422c7&language=en-US")
