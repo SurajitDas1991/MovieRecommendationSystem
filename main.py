@@ -35,9 +35,6 @@ def recommend_movie(movie):
 
 
 if __name__=="__main__":
-    #app_logger.info("Creating project folders if they do not exist")
-    #template.SetupTemplate()
-    #print(get_folder_path())
     st.title("Movie Recommender System by Content Based")
     selected_movie_name =st.selectbox("Select a movie from the dropdown",movies_df['title'].values)
     if st.button("Recommend"):
